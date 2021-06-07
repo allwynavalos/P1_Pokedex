@@ -1,1 +1,1 @@
-# P1_Pokedex
+# Pokemon Picks!
