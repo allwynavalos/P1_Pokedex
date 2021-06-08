@@ -1,20 +1,21 @@
 # Pokemon Picks!
 General Assembly P1
 
-App Title: 
+## App Title: 
 
 Pokemon Picks!
 
-App Description:
+## App Description:
 
 When someone searches for a specific pokemon; information about that particular pokemon will be displayed.
 
-API:The API you are using and the information you plan to get form it.
+## API:
+The API you are using and the information you plan to get form it.
 
 The API I will be using will be https://pokeapi.co/api/v2/pokemon/
 I plan on getting information (ie. name, game version, moves, abilities, etc)
 
-API Snippet:
+## API Snippet:
 {
   "abilities": [
     {
@@ -52,9 +53,14 @@ API Snippet:
 
 
 
-WireFrame:
+## WireFrame:
+          
+![image](https://user-images.githubusercontent.com/81048858/121224734-dc146980-c856-11eb-916e-80a2a6d5a92f.png)
 
-MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
+
+
+### MVP: 
+A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
 
     1. Build the skeleton with HTML, create CSS code for some styling, and JS functions and Axios for getting data and user interaction.
 
@@ -69,11 +75,13 @@ MVP: A list of features you will need to build in order to meet the Minimum Viab
     6. README.md file for all information as to how to utilize the app and what it does. Also any links that were used.
 
 
-Post-MVP:A list of additional/advanced features you would like to include in your app after you have met MVP.
+### Post-MVP:
+A list of additional/advanced features you would like to include in your app after you have met MVP.
 
     1. Build app with more style
     2. Add pokemon theme song if able to
     3. Add links to other pokemon resources and direct it to the appropriate page. 
+    4. Possbly adding another API for the Pokemon pictures to display
 
 
 Goals: 
@@ -86,23 +94,26 @@ Goals:
             Retouch CSS to make app cohesive and work well with JS.
     Day 4.  Final touches to project
     Day 5. Add any bonuses to project if I can and have time.
+    
+## Priority Matrix: 
+A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
+ 
+ 
+  ![image](https://user-images.githubusercontent.com/81048858/121191022-95fcdd00-c839-11eb-83c9-4eb03ef06795.png)
 
 
-TimeFrame: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
 
-      Day 1. Initial HTML, CSS, and JS setup - 3hr;
-        Comments - 1 hr; Adding Flexbox/Grid to app  and getting it to work- 4 hrs
+## TimeFrame:
+How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
 
-      Day 2. JS function and Axios request to     work (this will be the most difficult for me)- 8+ hrs
-
-      Day 3. Continue to work on JS functions and Axios - 5 hrs; also work on Flexbox/Grid more - 3 hrs
-
-      Day 4.  Continue Flexbox/Grid - 3 hrs;Make sure everything works! Work on any Debugging issues for JS and Axios - 4 hrs; additional research - 1 hr
-
-      Day 5. If I have time I will work on bonuses. I will add more styling and images to the app. Deployment and researching JS for better implementations - 8 hrs
-
-      Day 6. Hopefully no more coding. Looking over all the work. - 5 hrs
-        
+ | Days  | Component                                                                                               | Time            |
+|-------|---------------------------------------------------------------------------------------------------------|-----------------|
+| Day 1 | Initial HTML,  Comments for CSS and start CSS, JS setup with comments,                                  | 2hrs 3hrs 3hrs  |
+| Day 2 | JS functions, Axios request and call, Make sure the results are being shown,                            | 3hrs 3hrs 2hrs  |
+| Day 3 | Continue to work on JS function, JS  and Axios Debugging, Flexbox/Grid,                                 | 3hrs 3hrs 2hrs  |
+| Day 4 | @mediaquery, Make sure CSS functions, Links, buttons, and search bar work properly, research for bonus, | 3hrs 3hrs  2hrs |
+| Day 5 | adding the images and linking them to cite, Flexbox/Grid for mobile, debug,                             | 3hrs 3hrs 2hrs  |
+| Day 6 | Make sure everything functions and is cohesive                                                          |                 |
 
        
 
