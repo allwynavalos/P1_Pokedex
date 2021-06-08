@@ -96,15 +96,14 @@ Goals:
 
 TimeFrame: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
 
-     | Days  | Component                                                                                               | Time            |
+ | Days  | Component                                                                                               | Time            |
 |-------|---------------------------------------------------------------------------------------------------------|-----------------|
 | Day 1 | Initial HTML,  Comments for CSS and start CSS, JS setup with comments,                                  | 2hrs 3hrs 3hrs  |
 | Day 2 | JS functions, Axios request and call, Make sure the results are being shown,                            | 3hrs 3hrs 2hrs  |
 | Day 3 | Continue to work on JS function, JS  and Axios Debugging, Flexbox/Grid,                                 | 3hrs 3hrs 2hrs  |
 | Day 4 | @mediaquery, Make sure CSS functions, Links, buttons, and search bar work properly, research for bonus, | 3hrs 3hrs  2hrs |
 | Day 5 | adding the images and linking them to cite, Flexbox/Grid for mobile, debug,                             | 3hrs 3hrs 2hrs  |
-| Day 6 | Make sure everything functions and is cohesive                                                          |                 
-        
+| Day 6 | Make sure everything functions and is cohesive                                                          |                 |
 
        
 
