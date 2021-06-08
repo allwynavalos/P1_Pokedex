@@ -9,7 +9,8 @@ Pokemon Picks!
 
 When someone searches for a specific pokemon; information about that particular pokemon will be displayed.
 
-## API:The API you are using and the information you plan to get form it.
+## API:
+The API you are using and the information you plan to get form it.
 
 The API I will be using will be https://pokeapi.co/api/v2/pokemon/
 I plan on getting information (ie. name, game version, moves, abilities, etc)
