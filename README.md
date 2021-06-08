@@ -53,7 +53,9 @@ I plan on getting information (ie. name, game version, moves, abilities, etc)
 
 
 ## WireFrame:
-          ![image](https://user-images.githubusercontent.com/81048858/121224011-1fbaa380-c856-11eb-8415-af5fb4d4a8f6.png)
+          
+          ![image](https://user-images.githubusercontent.com/81048858/121224169-4b3d8e00-c856-11eb-817d-dad58dca8f41.png)
+
 
 
 
