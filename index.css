@@ -1,0 +1,60 @@
+
+body {
+ background-color: rgb(190, 44, 44);
+}
+
+.pokemon {
+  background-image:linear-gradient(to right,  white, red);
+  opacity:0.8;
+  color:black;
+}
+
+h1 {
+  font-size:80px;
+  
+}
+
+#title2 {
+  font-size:75px;
+  margin-top:-50px;
+}
+
+#logo {
+  background-image: red;
+  
+  
+}
+
+.choose {
+  text-align:center;
+  background:blue;
+  /* width:350px; */
+  /* margin-left: 500px; */
+  background-size: 2px;
+  
+  
+}
+
+.input {
+  display:flex;
+  flex-direction:column;
+  
+}
+#search {
+  width:140px;
+  margin-bottom:10px;
+}
+
+#button {
+  width:140px;
+  color:black;
+  background-color: red;
+  
+}
+
+.sidenav {
+  display:flex;
+  flex-direction:column;
+  float:right;
+  background-color: green;
+}
