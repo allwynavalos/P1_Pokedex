@@ -52,7 +52,7 @@ API Snippet:
 
 
 
-WireFrame:![image](https://user-images.githubusercontent.com/81048858/121111934-b6974980-c7dd-11eb-987d-ebed77e65686.png)
+WireFrame:
           ![image](https://user-images.githubusercontent.com/81048858/121222696-c56d1300-c854-11eb-86e6-ec33439b0ca4.png)
 
 MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
