@@ -96,18 +96,14 @@ Goals:
 
 TimeFrame: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
 
-      Day 1. Initial HTML, CSS, and JS setup - 3hr;
-        Comments - 1 hr; Adding Flexbox/Grid to app  and getting it to work- 4 hrs
-
-      Day 2. JS function and Axios request to     work (this will be the most difficult for me)- 8+ hrs
-
-      Day 3. Continue to work on JS functions and Axios - 5 hrs; also work on Flexbox/Grid more - 3 hrs
-
-      Day 4.  Continue Flexbox/Grid - 3 hrs;Make sure everything works! Work on any Debugging issues for JS and Axios - 4 hrs; @mediaquery to make app responsive for mobile usage - 1 hr
-
-      Day 5. If I have time I will work on bonuses. I will add more styling and images to the app. Deployment and researching JS for better implementations - 8 hrs
-
-      Day 6. Hopefully no more coding. Looking over all the work. - 5 hrs
+     | Days  | Component                                                                                               | Time            |
+|-------|---------------------------------------------------------------------------------------------------------|-----------------|
+| Day 1 | Initial HTML,  Comments for CSS and start CSS, JS setup with comments,                                  | 2hrs 3hrs 3hrs  |
+| Day 2 | JS functions, Axios request and call, Make sure the results are being shown,                            | 3hrs 3hrs 2hrs  |
+| Day 3 | Continue to work on JS function, JS  and Axios Debugging, Flexbox/Grid,                                 | 3hrs 3hrs 2hrs  |
+| Day 4 | @mediaquery, Make sure CSS functions, Links, buttons, and search bar work properly, research for bonus, | 3hrs 3hrs  2hrs |
+| Day 5 | adding the images and linking them to cite, Flexbox/Grid for mobile, debug,                             | 3hrs 3hrs 2hrs  |
+| Day 6 | Make sure everything functions and is cohesive                                                          |                 
         
 
        
