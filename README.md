@@ -102,7 +102,7 @@ TimeFrame: How long you anticipate spending on each area of development. Be sure
 
       Day 3. Continue to work on JS functions and Axios - 5 hrs; also work on Flexbox/Grid more - 3 hrs
 
-      Day 4.  Continue Flexbox/Grid - 3 hrs;Make sure everything works! Work on any Debugging issues for JS and Axios - 4 hrs; additional research - 1 hr
+      Day 4.  Continue Flexbox/Grid - 3 hrs;Make sure everything works! Work on any Debugging issues for JS and Axios - 4 hrs; @mediaquery to make app responsive for mobile usage - 1 hr
 
       Day 5. If I have time I will work on bonuses. I will add more styling and images to the app. Deployment and researching JS for better implementations - 8 hrs
 
