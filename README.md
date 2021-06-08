@@ -1,20 +1,20 @@
 # Pokemon Picks!
 General Assembly P1
 
-App Title: 
+## App Title: 
 
 Pokemon Picks!
 
-App Description:
+## App Description:
 
 When someone searches for a specific pokemon; information about that particular pokemon will be displayed.
 
-API:The API you are using and the information you plan to get form it.
+## API:The API you are using and the information you plan to get form it.
 
 The API I will be using will be https://pokeapi.co/api/v2/pokemon/
 I plan on getting information (ie. name, game version, moves, abilities, etc)
 
-API Snippet:
+## API Snippet:
 {
   "abilities": [
     {
@@ -52,10 +52,10 @@ API Snippet:
 
 
 
-WireFrame:
+## WireFrame:
           ![image](https://user-images.githubusercontent.com/81048858/121222696-c56d1300-c854-11eb-86e6-ec33439b0ca4.png)
 
-MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
+### MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
 
     1. Build the skeleton with HTML, create CSS code for some styling, and JS functions and Axios for getting data and user interaction.
 
@@ -70,7 +70,7 @@ MVP: A list of features you will need to build in order to meet the Minimum Viab
     6. README.md file for all information as to how to utilize the app and what it does. Also any links that were used.
 
 
-Post-MVP:A list of additional/advanced features you would like to include in your app after you have met MVP.
+### Post-MVP:A list of additional/advanced features you would like to include in your app after you have met MVP.
 
     1. Build app with more style
     2. Add pokemon theme song if able to
@@ -89,14 +89,14 @@ Goals:
     Day 4.  Final touches to project
     Day 5. Add any bonuses to project if I can and have time.
     
- Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
+## Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
  
  
   ![image](https://user-images.githubusercontent.com/81048858/121191022-95fcdd00-c839-11eb-83c9-4eb03ef06795.png)
 
 
 
-TimeFrame: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
+## TimeFrame: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
 
  | Days  | Component                                                                                               | Time            |
 |-------|---------------------------------------------------------------------------------------------------------|-----------------|
