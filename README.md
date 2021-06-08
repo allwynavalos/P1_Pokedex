@@ -90,9 +90,7 @@ Goals:
  Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
  
  
-    https://whimsical.com/CRuGTdnNpQuvH3fgpP7YLg    
-    ![image](https://user-images.githubusercontent.com/81048858/121112203-1857b380-c7de-11eb-87c6-2a6bbdacedf7.png)
-    ![image](https://user-images.githubusercontent.com/81048858/121112532-8d2aed80-c7de-11eb-87c8-d744fa0ed8fb.png)
+    ![image](https://user-images.githubusercontent.com/81048858/121190295-e889c980-c838-11eb-8720-db3c3c592ce6.png)
 
 
 TimeFrame: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
