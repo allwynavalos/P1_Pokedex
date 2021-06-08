@@ -88,8 +88,9 @@ Goals:
     Day 5. Add any bonuses to project if I can and have time.
     
  Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
-    
-    
+ 
+ 
+    https://whimsical.com/CRuGTdnNpQuvH3fgpP7YLg    
     ![image](https://user-images.githubusercontent.com/81048858/121112203-1857b380-c7de-11eb-87c6-2a6bbdacedf7.png)
     ![image](https://user-images.githubusercontent.com/81048858/121112532-8d2aed80-c7de-11eb-87c8-d744fa0ed8fb.png)
 
