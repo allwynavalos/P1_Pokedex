@@ -53,7 +53,8 @@ I plan on getting information (ie. name, game version, moves, abilities, etc)
 
 
 ## WireFrame:
-          ![image](https://user-images.githubusercontent.com/81048858/121223820-e97d2400-c855-11eb-8d5a-f264483c2b2d.png)
+          ![image](https://user-images.githubusercontent.com/81048858/121224011-1fbaa380-c856-11eb-8415-af5fb4d4a8f6.png)
+
 
 
 ### MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
