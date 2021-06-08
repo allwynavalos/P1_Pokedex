@@ -58,7 +58,8 @@ I plan on getting information (ie. name, game version, moves, abilities, etc)
 
 
 
-### MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
+### MVP: 
+A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
 
     1. Build the skeleton with HTML, create CSS code for some styling, and JS functions and Axios for getting data and user interaction.
 
