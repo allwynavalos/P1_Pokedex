@@ -52,8 +52,7 @@ API Snippet:
 
 
 
-WireFrame:
-
+WireFrame:![image](https://user-images.githubusercontent.com/81048858/121111934-b6974980-c7dd-11eb-987d-ebed77e65686.png)
 MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
 
     1. Build the skeleton with HTML, create CSS code for some styling, and JS functions and Axios for getting data and user interaction.
@@ -86,7 +85,10 @@ Goals:
             Retouch CSS to make app cohesive and work well with JS.
     Day 4.  Final touches to project
     Day 5. Add any bonuses to project if I can and have time.
-
+    
+    Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
+    
+    ![image](https://user-images.githubusercontent.com/81048858/121112203-1857b380-c7de-11eb-87c6-2a6bbdacedf7.png)
 
 TimeFrame: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
 
