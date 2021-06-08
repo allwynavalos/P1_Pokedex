@@ -74,7 +74,8 @@ A list of features you will need to build in order to meet the Minimum Viable Pr
     6. README.md file for all information as to how to utilize the app and what it does. Also any links that were used.
 
 
-### Post-MVP:A list of additional/advanced features you would like to include in your app after you have met MVP.
+### Post-MVP:
+A list of additional/advanced features you would like to include in your app after you have met MVP.
 
     1. Build app with more style
     2. Add pokemon theme song if able to
