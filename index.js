@@ -38,18 +38,10 @@ const getPokemon = async (userInput) => {
 
  
  
-  
-  function removePokemon() {
-    const removeCurrent = document.querySelector('#poke-List')
-    while(removeCurrent.lastChild) {
-      removeCurrent.removeChild(removeCurrent.lastChild)
-    }
-  }
 
 
 
   const renderPokemon = (results) => {
-    
     console.log('render function', results)
     // results.forEach(item => {
       let pokeList = document.querySelector('#poke-list')
@@ -77,12 +69,12 @@ const getPokemon = async (userInput) => {
 
 
 
-  // function removePokemon() {
-  //   const removeCurrent = document.querySelector('#poke-List')
-  //   while(removeCurrent.lastChild) {
-  //     removeCurrent.removeChild(removeCurrent.lastChild)
-  //   }
-  // }
+  function removePokemon() {
+    const removeCurrent = document.querySelector('#poke-List')
+    while(removeCurrent.lastChild) {
+      removeCurrent.removeChild(removeCurrent.lastChild)
+    }
+  }
   
   
  
