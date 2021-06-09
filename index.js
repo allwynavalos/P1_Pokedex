@@ -19,13 +19,13 @@ const DOMAIN = "https://pokeapi.co/api/v2/pokemon/";
 
 
 
-let userInput = document.querySelector('#search')
+let userInput = document.querySelector('#searchbar')
 let searchButton = document.querySelector('#button')
-let pokeList = document.querySelector ('.pokeList')
+let pokeList = document.querySelector ('#pokeList')
 
 searchButton.addEventListener('click', (e) =>{
   e.preventDefault()
-  let userInput = document.querySelector('#search').value 
+  let userInput = document.querySelector('#searchbar').value 
   console.log(userInput)
   getPokemon(userInput)
 })
@@ -41,11 +41,111 @@ searchButton.addEventListener('click', (e) =>{
   const response = await axios.get(`${DOMAIN}${userInput}`)
   let results = response
   console.log(results)
+  renderPokemon(results)
   }catch(error) {
   console.log(error.message)
   }
  }
  getPokemon()
+
+ 
+ 
+  // for (let i = 1; i <= 20; i++){
+  //   const url = `https://pokeapi.co/api/v2/pokemon/${i}`;
+  //   fetch(url)
+  //   .then (res => res.json() )
+  //   .then(pokemon => {
+  //     console.log(pokemon)
+  //   })
+       
+  // }
+  function removePokemon() {
+    const removeCurrent = document.querySelector('#poke-List')
+    while(removeCurrent.lastChild) {
+      removeCurrent.removeChild(removeCurrent.lastChild)
+    }
+  }
+
+
+
+
+
+
+
+
+
+  const renderPokemon = (results) => {
+    console.log('render function', results)
+    // results.forEach(item => {
+      let pokeList = document.querySelector('#poke-list')
+      const pokeName = document.createElement('div')
+      pokeName.innerText= results.data.name
+      pokeList.appendChild(pokeName)
+      const pokePic = document.createElement('img')
+      pokePic.src = results.data.sprites.front_default
+      pokeList.appendChild(pokePic)
+      const pokePicBack = document.createElement('img')
+      pokePicBack.src = results.data.sprites.back_default
+      pokeList.appendChild(pokePicBack)
+      const pokePicBackShiny = document.createElement('img')
+      pokePicBackShiny.src = results.data.sprites.back_shiny
+      pokeList.appendChild(pokePicBackShiny)
+      const pokePicFrontShiny = document.createElement('img')
+      pokePicFrontShiny.src = results.data.sprites.front_default
+      pokeList.appendChild(pokePicFrontShiny)
+    // })
+  }
+
+  // function removePokemon() {
+  //   const removeCurrent = document.querySelector('#poke-List')
+  //   while(removeCurrent.lastChild) {
+  //     removeCurrent.removeChild(removeCurrent.lastChild)
+  //   }
+  // }
+  // const pokemon = results(data => ({
+  // name: data.name,
+  // image: data.sprites["back_default","back_shiny"],
+  // }));
+
+  // const displayPokemon = pokemon =>{}
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+  //  const response = await axios.get('https://pokeapi.co/api/v2/pokemon/ditto');
+//  const { sprites } = response.data;
+//  console.log(Object.entries(sprites));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // /  const pokemon = results.map(data => ({
+//    name:data.name, 
+//    id:data.id,
+//    image:data.sprites["front_default"],
+//    type:data.types.map(type => type.type.name).join(",")
+//  }))
   
 //    axios
 //   .get(url)
@@ -54,12 +154,6 @@ searchButton.addEventListener('click', (e) =>{
   
 //  }
 //  getPokemon();
- 
-//  for (let i = 1;i <= 1118; i++){
-//    const url = `https://pokeapi.co/api/v2/pokemon/${i}`;
-//    fetch(url)
-//    .then (res => )
-//  }
 
 
 
@@ -68,6 +162,7 @@ searchButton.addEventListener('click', (e) =>{
 
 
 
-// const response = await axios.get('https://pokeapi.co/api/v2/pokemon/ditto');
-// const { sprites } = response.data;
-// console.log(Object.entries(sprites));
+
+
+
+

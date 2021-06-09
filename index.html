@@ -5,38 +5,93 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <title>Pokemon Picker!</title>
 </head>
 <header>
+  
+<nav>
+  <a id="pika" href="https://www.ign.com/articles/25-epic-pokemon-facts">
+    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" alt="Pikachu" style="width:80px;height:80px;">
+  </a>
+      
+  <a id="charmander"href="https://www.gamesradar.com/pokemon-facts-15-little-known-things-about-classic-franchise/">
+    <img src="https://pokestop.io/img/pokemon/charmander-256x256.png" alt="Charmander"
+    style="width:150px;height:80px;">
+  </a>
+  
+  <a id="squirtle" href="https://www.theguardian.com/games/2020/sep/01/gotta-quiz-em-all-the-guardians-pokemon-quiz">
+    <img src="https://cdn2.bulbagarden.net/upload/3/39/007Squirtle.png" alt="Squirtle"
+    style="width:100px;height:80px;">
+  </a>
+  
+  <a id="bulb" href="https://www.buzzfeed.com/gabrielsanchez/which-pokemon-are-you">
+  <img src="https://cdn2.bulbagarden.net/upload/2/21/001Bulbasaur.png" alt="Bulbasaur"
+  style="width:100px;height:80px";>
+  
+  </a>
+
+</nav>
+
+
+
+
+
+
   <div class="pokemon">
     <h1>Pokemon</h1>
     <h2 id="title2"> Picks!</h2>
-    <img id="logo" src="http://cdn.shopify.com/s/files/1/1756/9559/products/pokeball_coaster_photo_33c69500-8564-4842-a2a7-3803975a2d3b_1024x1024.jpg?v=1557064432" alt="pokeball logo" width="80" height="80">
+    <!-- <img id="logo" src="https://i.pinimg.com/originals/fd/18/c6/fd18c6d26d4d9d26a0bd9d1a2fb2bd04.png" alt="pokeball logo" width="80" height="80"> -->
   </div>
+  <div>
+  <img id="logo" src="https://i.pinimg.com/originals/fd/18/c6/fd18c6d26d4d9d26a0bd9d1a2fb2bd04.png" alt="pokeball logo" width="80" height="80">
+</div>
+
+
+
 </header>
 
 <body>
-  <div>
-    <h2 class="choose">Choose Your Pokemon Pick!</h2>
-  </div>
+  <!-- <div>
+    <h2 class="choosebanner">Choose Your Pokemon Pick!</h2>
+  </div> -->
 
   <div class="input">
-    <input id="search" type="text" name="Picker" placeholder="Pokemon Picker">
-    <button id="button" type="button">I choose YOU!</button>
+    <div>
+      <h2 class="choosebanner">Choose Your Pokemon Pick!</h2>
+    </div>
+    <input id="searchbar" type="text" name="Picker" placeholder="Pokemon Picker">
+    <button id="button" type="button">I choose YOU! </button>
   </div>
 
-  <section class="poke-list">
-    <h2>Pokemon List</h2>
-  </section>
 
-  <div class="sidenav">
+    <h2 id="pokemonlistheader">Pokemon List</h2>
+    <div id="poke-list"></div>
+
+    <!-- <div class="sidenav">
+      <a href="https://www.ign.com/articles/25-epic-pokemon-facts">IGN Facts</a>
+      
+      <a href="https://www.gamesradar.com/pokemon-facts-15-little-known-things-about-classic-franchise/">Pokemon Facts</a>
+      
+      <a href="https://www.theguardian.com/games/2020/sep/01/gotta-quiz-em-all-the-guardians-pokemon-quiz">Pokemon Quiz</a>
+      
+      <a href="https://www.buzzfeed.com/gabrielsanchez/which-pokemon-are-you">Your Pokemon</a>
+      
+        </div> -->
+  </div>
+  
+
+
+    
+  <!-- <div class="sidenav">
 <a href="https://www.ign.com/articles/25-epic-pokemon-facts">IGN Facts</a>
 
 <a href="https://www.gamesradar.com/pokemon-facts-15-little-known-things-about-classic-franchise/">Pokemon Facts</a>
 
 <a href="https://www.theguardian.com/games/2020/sep/01/gotta-quiz-em-all-the-guardians-pokemon-quiz">Pokemon Quiz</a>
 
-<a href="https://www.buzzfeed.com/gabrielsanchez/which-pokemon-are-you">Your Pokemon</a>
+<a href="https://www.buzzfeed.com/gabrielsanchez/which-pokemon-are-you">Your Pokemon</a> -->
 
   </div>
 
