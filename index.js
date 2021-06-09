@@ -10,14 +10,6 @@ const DOMAIN = "https://pokeapi.co/api/v2/pokemon/";
 
 
 
-// try {
-//   const result = await.axios.get(DOMAIN + pokemon);
-//   console.log(result);
-
-// }catch.error((error))
-
-
-
 
 let userInput = document.querySelector('#searchbar')
 let searchButton = document.querySelector('#button')
@@ -32,11 +24,7 @@ searchButton.addEventListener('click', (e) =>{
 
 
 
-
-
-
-
- const getPokemon = async (userInput) => {
+const getPokemon = async (userInput) => {
   try{
   const response = await axios.get(`${DOMAIN}${userInput}`)
   let results = response
@@ -50,15 +38,7 @@ searchButton.addEventListener('click', (e) =>{
 
  
  
-  // for (let i = 1; i <= 20; i++){
-  //   const url = `https://pokeapi.co/api/v2/pokemon/${i}`;
-  //   fetch(url)
-  //   .then (res => res.json() )
-  //   .then(pokemon => {
-  //     console.log(pokemon)
-  //   })
-       
-  // }
+  
   function removePokemon() {
     const removeCurrent = document.querySelector('#poke-List')
     while(removeCurrent.lastChild) {
@@ -68,13 +48,8 @@ searchButton.addEventListener('click', (e) =>{
 
 
 
-
-
-
-
-
-
   const renderPokemon = (results) => {
+    
     console.log('render function', results)
     // results.forEach(item => {
       let pokeList = document.querySelector('#poke-list')
@@ -96,18 +71,19 @@ searchButton.addEventListener('click', (e) =>{
     // })
   }
 
+
+
+
+
+
+
   // function removePokemon() {
   //   const removeCurrent = document.querySelector('#poke-List')
   //   while(removeCurrent.lastChild) {
   //     removeCurrent.removeChild(removeCurrent.lastChild)
   //   }
   // }
-  // const pokemon = results(data => ({
-  // name: data.name,
-  // image: data.sprites["back_default","back_shiny"],
-  // }));
-
-  // const displayPokemon = pokemon =>{}
+  
   
  
 
