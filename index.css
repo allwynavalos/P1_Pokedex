@@ -1,3 +1,16 @@
+.app {
+  display:grid;
+  grid-template-areas: 
+  "T"
+  "H"
+  "L"; 
+  
+
+}
+
+.pokemon  {
+  grid-area: T;
+}
 
 body {
   background-image: url("https://wallpapercave.com/wp/cqhO8rQ.jpg");
@@ -22,24 +35,32 @@ h1 {
 
 #logo {
  padding-left:200px;
+ 
+
 
  }
 
 a {
-  display:flex;
   padding-left:50px;
   color:brown;
+  text-decoration: none;
+  
 }
 
 
 nav {
   display:flex;
   justify-content:space-between;
+  flex-direction:row;
+  float:right;
+  font-size:20px;
+  color:red;
   
 }
 
 
 .input {
+  grid-area: T;
   background:#313131;
   float:left;
   width:100%;
@@ -68,12 +89,20 @@ border: 1px dotted yellow;
 background-color:lightgrey;
 }
 
+.pokedex {
+  grid-area:L;
+  text-align:center;
+  color:whites;
+  font-size:50px;
+  padding-bottom:200px;
+}
+
 
 #pokemonlistheader {
   color:whites;
-  text-align:center;
   font-size:50px;
   padding-bottom:200px;
+  text-align: center;
 
  
 }
@@ -82,7 +111,6 @@ background-color:lightgrey;
 
 
 #poke-list {
-  
   display:flex;
   justify-content:center;
   height:200px;
@@ -94,27 +122,40 @@ background-color:lightgrey;
 
 }
 
-nav {
-  display:flex;
-  flex-direction:row;
-  float:right;
-  font-size:20px;
-  color:red;
-  
 
-}
 
-pokename {
-  
-}
+
 .title {
   font-size:30px;
   text-align:center;
+  
 
 }
 
 @media screen and(max-width:600px) {
-  .pokemon, .input, nav, #pokemonlistheader, #poke-list
-} {
-  /* width:100px; */
+ /* nav, .pokemon, .input, .pokedex, #poke-list{
+  } */
+  .app {
+    grid-template-areas: 
+    'T'
+    'H'
+    'L' ;
+    
+  }
 }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
