@@ -13,68 +13,84 @@ const DOMAIN = "https://pokeapi.co/api/v2/pokemon/";
 
 let userInput = document.querySelector('#searchbar')
 let searchButton = document.querySelector('#button')
-let pokeList = document.querySelector ('#pokeList')
+let pokeList = document.querySelector ('#poke-list')
 
-searchButton.addEventListener('click', (e) =>{
-  e.preventDefault()
-  let userInput = document.querySelector('#searchbar').value 
-  console.log(userInput)
-  getPokemon(userInput)
-})
+function removePokemon() {
+  const removeCurrent = document.querySelector('#poke-list')
+  while(removeCurrent.lastChild) {
+    removeCurrent.removeChild(removeCurrent.lastChild)
+  }
+}
 
 
 
 const getPokemon = async (userInput) => {
   try{
-  const response = await axios.get(`${DOMAIN}${userInput}`)
-  let results = response
-  console.log(results)
-  renderPokemon(results)
+    const response = await axios.get(`${DOMAIN}${userInput}`)
+    let results = response
+    // console.log(results)
+    renderPokemon(results)
   }catch(error) {
-  console.log(error.message)
+    console.log(error.message)
   }
- }
- getPokemon()
-
- 
- 
+}
+getPokemon();
 
 
 
-  const renderPokemon = (results) => {
-    console.log('render function', results)
-    // results.forEach(item => {
-      let pokeList = document.querySelector('#poke-list')
-      const pokeName = document.createElement('div')
-      pokeName.innerText= results.data.name
-      pokeList.appendChild(pokeName)
-      const pokePic = document.createElement('img')
-      pokePic.src = results.data.sprites.front_default
-      pokeList.appendChild(pokePic)
-      const pokePicBack = document.createElement('img')
-      pokePicBack.src = results.data.sprites.back_default
-      pokeList.appendChild(pokePicBack)
-      const pokePicBackShiny = document.createElement('img')
-      pokePicBackShiny.src = results.data.sprites.back_shiny
-      pokeList.appendChild(pokePicBackShiny)
-      const pokePicFrontShiny = document.createElement('img')
-      pokePicFrontShiny.src = results.data.sprites.front_default
-      pokeList.appendChild(pokePicFrontShiny)
+
+
+
+const renderPokemon = (results) => {
+  console.log('render function', results)
+  // results.forEach(item => {
+    let pokeList = document.querySelector('#poke-list')
+    const pokeName = document.createElement('div')
+    pokeName.innerText= results.data.name
+    pokeList.appendChild(pokeName)
+    pokeName.classList.add('title')
+    document.body.appendChild(pokeName)
+    
+    const pokePic = document.createElement('img')
+    pokePic.src = results.data.sprites.front_default
+    pokeList.appendChild(pokePic)
+    const pokePicBack = document.createElement('img')
+    pokePicBack.src = results.data.sprites.back_default
+    pokeList.appendChild(pokePicBack)
+    const pokePicBackShiny = document.createElement('img')
+    pokePicBackShiny.src = results.data.sprites.back_shiny
+    pokeList.appendChild(pokePicBackShiny)
+    const pokePicFrontShiny = document.createElement('img')
+    pokePicFrontShiny.src = results.data.sprites.front_shiny
+    pokeList.appendChild(pokePicFrontShiny)
     // })
+    
   }
 
+//   let div = document.createElement('div');
+// div.classList.add('test');
+// let text = document.createTextNode('Test');
+// div.appendChild(text);
+// document.body.appendChild(div)
+// .test {
+//   color: green;
+// }
+
+
+  searchButton.addEventListener('click', (e) =>{
+    e.preventDefault();
+    removePokemon()
+    let userInput = document.querySelector('#searchbar').value 
+    console.log(userInput)
+    getPokemon(userInput);
+  })
+  
+  // removePokemon();
+  
 
 
 
 
-
-
-  function removePokemon() {
-    const removeCurrent = document.querySelector('#poke-List')
-    while(removeCurrent.lastChild) {
-      removeCurrent.removeChild(removeCurrent.lastChild)
-    }
-  }
   
   
  
