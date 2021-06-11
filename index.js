@@ -19,8 +19,11 @@ function removePokemon() {
   const removeCurrent = document.querySelector('#poke-list')
   while(removeCurrent.lastChild) {
     removeCurrent.removeChild(removeCurrent.lastChild)
+
   }
 }
+
+
 
 
 
@@ -34,7 +37,7 @@ const getPokemon = async (userInput) => {
     console.log(error.message)
   }
 }
-getPokemon();
+
 
 
 
@@ -50,7 +53,7 @@ const renderPokemon = (results) => {
     pokeList.appendChild(pokeName)
     pokeName.classList.add('title')
     document.body.appendChild(pokeName)
-    
+
     const pokePic = document.createElement('img')
     pokePic.src = results.data.sprites.front_default
     pokeList.appendChild(pokePic)
@@ -82,6 +85,7 @@ const renderPokemon = (results) => {
     removePokemon()
     let userInput = document.querySelector('#searchbar').value 
     console.log(userInput)
+    userInput.innerText = 
     getPokemon(userInput);
   })
   
