@@ -81,7 +81,7 @@ A list of additional/advanced features you would like to include in your app aft
     1. Build app with more style
     2. Add pokemon theme song if able to
     3. Add links to other pokemon resources and direct it to the appropriate page. 
-    4. Possbly adding another API for the Pokemon pictures to display
+  
 
 
 Goals: 
